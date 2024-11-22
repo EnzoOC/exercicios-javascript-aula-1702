@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="790B8E26-8E88-D95F-2810-CB1D1F25E40C" containerWithKeyObject="A13AD12E-2924-DE6F-C738-D96174FB8855" localFKIndex="0E00A8E1-6435-8F9B-6F18-991D78EEB1F4" name="PLANO DE CONSUMO_USUARIO_FK">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:57:11 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BBD2E00A-3E62-F0D7-DD9E-DB61811CDB2B</referredTableID>
+<keyObject>D1353662-0580-9EA9-463A-FA40473B39CF</keyObject>
+<referredKeyID>D1353662-0580-9EA9-463A-FA40473B39CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Usuario (PK)</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

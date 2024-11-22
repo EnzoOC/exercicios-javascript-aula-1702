@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="162C27B1-9688-9840-9827-DB90274CFDA9" name="Plano de Consumo">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:09:40 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Fonte" id="FECE9606-BC15-38F8-CB54-2AAD60A998E7">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:16:47 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Plano" id="76167CB8-8736-8011-DAA2-32E3EBECD6F9">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:17:11 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="295FC982-2657-7719-D5D7-DDEFB0BF564A">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:17:41 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Consumo_Planejado" id="362F8053-40D1-59F4-863E-169991273E78">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:17:58 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Usuario" id="1ABEA9D5-180B-955A-945C-43E19655EF3F">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:18:27 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Usuario1" id="32038DDA-956B-3F1E-E0C7-180B5EBDD6A0">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:20:39 UTC</createdTime>
+<generatorID>79A17527-E6E5-7CDA-1872-2F66D3C3B00D</generatorID>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<referedAttribute>4D66F015-5D70-DF8F-F74A-7D8CB1E5C216</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Fonte1" id="F3679BC7-4266-7D4D-7FD6-08AF2792A45D">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:23:42 UTC</createdTime>
+<generatorID>3EB211F2-C216-0962-FADD-9DC7808204F6</generatorID>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<referedAttribute>FA38E8FE-DEDF-08AD-CFCD-A4D419F9C412</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0AD550AD-7815-61F4-1080-CBBDFCF8F268" name="Plano de Consumo PK">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 21:17:32 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<engineerTo>
+<item key="E3E149BB-7C04-209A-7323-456C767DB5D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76167CB8-8736-8011-DAA2-32E3EBECD6F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

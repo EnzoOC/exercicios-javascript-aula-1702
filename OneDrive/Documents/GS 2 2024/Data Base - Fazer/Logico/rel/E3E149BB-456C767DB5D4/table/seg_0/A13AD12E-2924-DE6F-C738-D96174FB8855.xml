@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A13AD12E-2924-DE6F-C738-D96174FB8855" name="PLANO DE CONSUMO">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 19:45:13 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Fonte" id="FDF67D9E-1F8C-BA02-9B8F-15CB8D701427">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:47:48 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="4A803124-C105-B4FF-6F09-A858C6603067">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:48:09 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Consumo_planejado" id="49ECC548-2C24-2F3A-9E9B-ECF3D96FDA15">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:48:47 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Usuario" id="A85F3944-8C55-65B5-AC7D-6BFF0A924C92">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:49:17 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Plano" id="66F6890A-3899-0353-E937-AA14E6F175A4">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:50:51 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_ID_Usuario (PK)" id="EE73D0E2-DB43-BBA6-E092-D22DDE6E71B7">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:57:11 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="790B8E26-8E88-D95F-2810-CB1D1F25E40C" referredColumn="B5AC8AEC-7D2E-CE38-D6DB-4F3BD0715D51"/>
+</associations>
+</Column>
+<Column name="FONTE DE ENERGIA_ID_FONTE" id="251E4481-9D3D-2BB9-8BD0-2A1E32484708">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:59:02 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0C45AE8-9576-4003-996E-16BF93CF6A45" referredColumn="615FBDF8-DF8A-6CFD-967A-11377438B128"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7584613-05FF-7DED-3783-F60C4C2DBDF5" name="PLANO DE CONSUMO_PK">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:47:48 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66F6890A-3899-0353-E937-AA14E6F175A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E00A8E1-6435-8F9B-6F18-991D78EEB1F4" name="PLANO DE CONSUMO_USUARIO_FK">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:57:11 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE73D0E2-DB43-BBA6-E092-D22DDE6E71B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="607A7161-7042-FD6E-1D31-91504D503750" name="PLANO DE CONSUMO_FONTE DE ENERGIA_FK">
+<createdBy>enzoc</createdBy>
+<createdTime>2024-11-22 20:59:02 UTC</createdTime>
+<ownerDesignName>Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="251E4481-9D3D-2BB9-8BD0-2A1E32484708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
